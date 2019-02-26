@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/datakegiatan" />
+        <item
+            android:id="@+id/nav_saldo"
+            android:icon="@drawable/ic_balance"
+            android:title="@string/saldo" />
+
+        <item
+            android:id="@+id/nav_edituser"
+            android:icon="@drawable/ic_edit"
+            android:title="@string/edituser" />
+        <item
+            android:id="@+id/nav_inven"
+            android:icon="@drawable/ic_inven"
+            android:title="@string/inven" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about"
+            android:title="@string/about" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_left"
+            android:title="@string/logout" />
+    </group>
+
+</menu>

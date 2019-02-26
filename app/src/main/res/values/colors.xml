@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#dda95a</color>
+    <color name="colorPrimaryDark">#dda95a</color>
+    <color name="colorAccent">#dda95a</color>
+    <color name="lines">#e0e0d1</color>
+    <color name="green">#00ff00</color>
+    <color name="indigo">#9933ff</color>
+    <color name="yellow">#ffcc00</color>
+    <color name="bgcard">#32e0e0d1</color>
+    <color name="biru">#2196f3</color>
+    <color name="bgcolor">#fff</color>
+    <color name="hijau">#4caf50</color>
+    <color name="red">#f44336</color>
+</resources>

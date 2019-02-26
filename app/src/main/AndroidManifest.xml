@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.aladziviesoft.kegiatandakwahfkl">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_new"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_new_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".PemberiPinjaman.PengembalianSebagian"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".PemberiPinjaman.OptionPengembalian"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".DaftarSaldo.DaftarSaldo"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".Pinjaman.DetailCicilan"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".MasukanDanaRiba.TambahDanaRiba"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".PemberiInfaqShodaqohZakat.TambahPemberiInfaq"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".PenerimaBantuan.TambahPenerimaBantuan"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".Menabung.TambahMenabung"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".PemberiPinjaman.GPemberiPinjamanBaru"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".PemberiInfaqShodaqohZakat.GPemberiInfaqShodaqohZakatActivity"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".Pinjaman.TambahPinjamanActivity"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".MasukanDanaRiba.GMasukanDanaRiba"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".Infaq.GInfaq"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".PemberiPinjaman.GPemberiPinjaman"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".PenerimaBantuan.GPenerimaBantuan"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".Pinjaman.GPinjaman"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".Menabung.Menabung"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".Gemar.Gemar"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".ProgramTetap.ProgramTetap"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".PemasukanKegiatanSosial.TambahPemasukanKegiatanSosial"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".PemasukanKegiatanSosial.PemasukanKegiatanSosial"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".PengeluaranKegiatanSosial.TambahPengeluaranKegiatanSosial"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".PengeluaranKegiatanSosial.PengeluaranKegiatanSosial"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".RadKegiatanSosial.UpdateRadKegiatanSosial"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".RadKegiatanSosial.RencanaAnggaranKegiatanSosial"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".KegiatanSosial.UpdateKegiatanSosial"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".KegiatanSosial.TambahKegiatanSosial"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".KegiatanSosial.SosialActivity"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".DakwahSosial.DaksosActivity"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            tools:replace="android:authorities">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"
+                tools:replace="android:resource" />
+        </provider>
+
+        <activity
+            android:name=".Taawun.TambahPembayarActivity"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".Taawun.ListTaawunAcivity"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".User.ListUserActivity"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".KegiatanDakwah.UpdateKegiatan"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".KegiatanDakwah.TambahKegiatan"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".KegiatanDakwah.KegiatanActivity"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".Inventory.TambahInventoryActivity"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".Inventory.UpdateInventoryActivity"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".Dashboard.MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar.Login" />
+        <activity
+            android:name=".EditUserActivity"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".User.NewUserActivity"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".ExportTaawun.ExportDataTaawunActivity"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".SaldoActivity"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".AboutActivity"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".Inventory.InventoryActivity"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".Rab.RencanaAnggaranAcitivty"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".Pengeluaran.TambahPengeluaranActivity"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".Pengeluaran.ListPengeluaranActivity"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+        <activity
+            android:name=".Rab.UpdateRadActivity"
+            android:theme="@style/AppTheme.NoActionBar.Activity" />
+    </application>
+
+</manifest>
